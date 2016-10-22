@@ -1,0 +1,33 @@
+{
+    "name": "clarkeash/str",
+    "description": "An extraction of Laravels Str class from Illuminate/Support.",
+    "type": "library",
+    "require": {
+        "ext-mbstring": "*",
+        "doctrine/inflector": "~1.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9.4",
+        "phpunit/phpunit": "~4.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylorotwell@gmail.com"
+        },
+        {
+            "name": "Ashley Clarke",
+            "email": "me@ashleyclarke.me"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/Illuminate/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Illuminate\\": "src/Illuminate"
+        }
+    },
+    "minimum-stability": "stable"
+}
