@@ -1,6 +1,7 @@
 {
     "name": "clarkeash/str",
     "description": "An extraction of Laravels Str class from Illuminate/Support.",
+    "keywords": ["laravel", "str", "string", "support"],
     "type": "library",
     "require": {
         "ext-mbstring": "*",
